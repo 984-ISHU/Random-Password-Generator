@@ -52,7 +52,7 @@ root = Tk()
 root.configure(bg="black")
 root.title("Generating Password")
 root.geometry("600x600")
-photo = PhotoImage(file=r"C:\Users\ishux\OneDrive\Desktop\PYTHON CODES\pojects\Rpg\lock.png")
+photo = PhotoImage(file=r"lock.png")
 Button(root, text="x", image=photo).pack()
 
 empty_label1 = Label(root, bg="black")
